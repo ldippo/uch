@@ -1,0 +1,225 @@
+	#content {
+		
+	}
+	body{
+		background:url(../images/cover-repeat.jpg) left top repeat-x;
+	}
+	.no-slider {
+		background:url(../images/cover-repeat-no-slider.jpg) left top repeat-x;
+	}
+	#all{
+		background:url(../images/cover.jpg) 50% top no-repeat;
+	}
+	.no-slider #all{
+		background:url(../images/cover-no-slider.jpg) 50% top no-repeat;
+	}
+	#content .container {
+	}
+	#logo {
+		position:absolute;
+		left:0;
+		right:0;
+		text-align:center;
+		top:30px;
+	}
+	.menusearch {
+		width:260px;
+		position:relative;
+		top:14px;
+		right:4px;
+		height:32px;
+		background:url(../images/header-search.png) left no-repeat;
+		padding-left:30px;
+	}
+	/*------------------------------ MENU ------------------------------*/
+	#secondarymenu-container {
+		height:148px;
+		position:relative;
+		z-index:11;
+	}
+	
+	
+	#secondarymenu {
+		float:left;
+		background:#15d2b6;
+		margin-top:14px;
+		max-width:360px;
+		height:32px;
+		margin-left:2px;
+	}
+	.menu-topmenu-container{
+		height:32px;
+		background:url(../images/menu-box.png) right no-repeat;
+		padding-right:30px;
+	}
+	#secondarymenu a {
+		padding:8px 9px;
+		color:#fff;
+		font-family:'tahoma';
+		font-size:12px;
+		text-transform:lowercase;
+	}
+	#secondarymenu a:hover{
+		color:#0f696e;
+	}
+	#header-block {
+		position:relative;
+	}
+	
+	#mainmenu-container {
+		height:40px;
+		position:relative;
+		margin:0 auto 30px;
+		z-index:18;
+	}
+	#mainmenu li a {
+		padding:8px 20px;
+		font-size:18px;
+		color:#7a7a7a;
+		font-family: 'gudeabold';
+	}
+	#mainmenu li {
+		position:relative;
+	}
+	#mainmenu li a:hover{
+		color:#fff;
+		background:#15d2b6;
+	}
+
+
+	#header li ul {	top:31px; }
+	#header #mainmenu li ul { top:39px; }
+	
+	#header li ul .transparent {	}
+	#header li ul .inner { 
+		background:#15d2b6;
+		border:1px solid #15d2b6;
+	}
+	#header #mainmenu li ul .transparent {	}
+	#header #mainmenu li ul .inner {
+		background:#15d2b6;
+	}
+	
+	#header ul.children li a, #header .sub-menu li a {
+		color:#fff; 
+		padding:0 20px;
+		text-align:left;
+		text-transform:lowercase;
+	}
+	#header ul.children li a:hover, #header .sub-menu li a:hover {
+		background:#14b29b;
+	}
+	
+	#header #mainmenu ul.children li a, #header #mainmenu .sub-menu li a {
+		color:#fff;
+		text-align:left;
+		padding:0 20px;
+		font-family: 'gudearegular' !important;
+		font-size:16px !important;
+		text-transform:none;
+	}
+	#header #mainmenu ul.children li a:hover, #header #mainmenu .sub-menu li a:hover {		
+		color:#1b1b1b;
+		background:none;
+	}
+	
+	/*------------------------------ SLIDER ------------------------------*/
+	.slider-container {	
+		position:relative;
+		margin:0 auto;
+		background:url(../images/slider-shadow.png) bottom no-repeat;
+		padding-bottom:22px;
+	}
+	.slider {
+	}
+	.fp-next, .fp-prev {
+		margin:0 -17px;
+		width:44px;
+		height:390px;
+	}
+	.fp-title{
+		background:#189da5;
+		float:left;
+		padding:4px 15px 33px;
+		border-left:1px solid #000;
+	}
+	.fp-title a{
+		color:#fff;
+		font-family: 'gudeabold';
+		font-size:30px;
+		text-decoration:none;
+	}
+	.fp-title a:hover{
+		color:#2b2b2b;
+	}
+	.fp-prev-next-wrap {
+		margin:0 0px;
+	}
+	.slider-nothumb .fp-slides, .slider-nothumb .fp-thumbnail, .slider-nothumb .fp-slides-items {
+		height:188px;
+	}
+	.fp-slides,.fp-thumbnail,.fp-slides-items  {
+		height:418px;
+		width:992px;
+	}
+	.fp-content-fon {
+		border:none;
+		background:none;
+		-moz-opacity: 0.8;
+		opacity: 0.8;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
+		height:80px;
+		width:400px;
+		left:0;
+		bottom:32px;
+	}
+	.fp-content p{
+		background:#189da5;
+		margin-left:159px;
+		padding:20px;
+		color:#fff;
+		font-size:14px;
+		font-family:'tahoma';
+	}
+	.fp-content p a{
+		text-transform:lowercase;
+	}
+	.fp-content p a:hover{
+		color:#2b2b2b;
+	}
+	.fp-content { 
+		left:10px;
+		right:350px;
+		height:104px;
+		bottom:0;
+		text-align:left;
+		font-size:13px;
+	}
+	.fp-nav {
+		right:30px;
+		bottom:30px;
+		left:auto;
+	}
+	.slider-nothumb .fp-content-fon {
+		background:#fff;
+	}
+	.slider-nothumb .fp-content a,.slider-nothumb .fp-content p{
+		color:#000;
+	}
+	.fp-pager a{
+		width:21px;
+		height:21px;
+	}
+	
+	#footer .footer_txt .container {
+		
+	}
+	.content-r #main_content, .content-r2 #main_content{
+		padding:0 20px 20px 3px;
+	}
+	.content-l #main_content, .content-l2 #main_content{
+		padding:0 3px 20px 20px;
+	}
+	.content-lr #main_content{
+		padding:0 20px 20px;
+	}
